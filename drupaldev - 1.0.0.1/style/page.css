@@ -1,0 +1,72 @@
+/* Set spacing around the icons. This helps prevent them becoming visible when
+ * zooming in the browser's view. This was a problem with the main logo. Also,
+ * spacing cannot be used with 'smart' layout, so it was switched to 'vertical'.
+ */
+.icons-sprite, #block-page-related-links .field-item:before {
+  background-image: url('../images/icons-sba1e690b72.png');
+  background-repeat: no-repeat;
+}
+
+#block-page-banner-image {
+  margin-bottom: 20px;
+}
+@media (min-width: 760px) {
+  #block-page-banner-image img {
+    width: 100%;
+  }
+}
+
+#block-page-left-sidebar .entity-field-collection-item,
+#block-page-right-sidebar .entity-field-collection-item {
+  background-color: #f9f7ed;
+  border-bottom: 1px solid #bcbcbc;
+  border-top: 1px solid #bcbcbc;
+  margin-bottom: 20px;
+  padding: 5px 15px;
+}
+#block-page-left-sidebar .entity-field-collection-item p, #block-page-left-sidebar .entity-field-collection-item ol, #block-page-left-sidebar .entity-field-collection-item ul, #block-page-left-sidebar .entity-field-collection-item table, #block-page-left-sidebar .entity-field-collection-item .video-container,
+#block-page-right-sidebar .entity-field-collection-item p,
+#block-page-right-sidebar .entity-field-collection-item ol,
+#block-page-right-sidebar .entity-field-collection-item ul,
+#block-page-right-sidebar .entity-field-collection-item table,
+#block-page-right-sidebar .entity-field-collection-item .video-container {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+#block-page-left-sidebar .entity-field-collection-item .field-name-field-sidebar-header,
+#block-page-right-sidebar .entity-field-collection-item .field-name-field-sidebar-header {
+  color: #ba0808;
+  font-size: 128%;
+  font-weight: bold;
+}
+
+#block-page-related-links {
+  border: 1px solid #dedfd1;
+  margin-bottom: 20px;
+  padding: 12px;
+}
+#block-page-related-links .field-label {
+  color: #df7a42;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+}
+#block-page-related-links .field-item {
+  font-size: 90%;
+  line-height: 150%;
+  margin-top: 5px;
+}
+#block-page-related-links .field-item:before {
+  content: '';
+  margin-top: 8px;
+  position: absolute;
+  background-position: 0 0;
+  height: 5px;
+  width: 5px;
+}
+#block-page-related-links .field-item a {
+  color: #787878;
+  display: block;
+  margin-left: 10px;
+}

@@ -1,0 +1,99 @@
+#block-platform-homequeue-top .field-name-field-element-image img {
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+}
+#block-platform-homequeue-top .has-text {
+  background-color: #e5e0cf;
+}
+#block-platform-homequeue-top .has-text .side-content {
+  padding: 10px 10px 0 10px;
+}
+#block-platform-homequeue-top .has-text .field-name-field-header {
+  font: 160%/125% Georgia, Times, serif;
+}
+#block-platform-homequeue-top .has-text .field-name-field-header p {
+  margin: 0 0 5px 0;
+}
+#block-platform-homequeue-top .has-text .field-name-body p:first-of-type {
+  margin-top: 0;
+}
+@media (min-width: 980px) {
+  #block-platform-homequeue-top .has-text .side-content {
+    padding: 15px;
+  }
+  #block-platform-homequeue-top.left .has-media.has-text .side-content {
+    padding: 25px 0 0 30px;
+  }
+  #block-platform-homequeue-top.left .has-media.has-text .field-name-field-element-image {
+    width: 65.71429%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+  #block-platform-homequeue-top.left .has-media.has-text .side-content {
+    width: 31.42857%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+  }
+  #block-platform-homequeue-top.right .has-media.has-text .side-content {
+    padding: 25px 25px 0 0;
+  }
+  #block-platform-homequeue-top.right .has-media.has-text .field-name-field-element-image {
+    width: 65.71429%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+  }
+  #block-platform-homequeue-top.right .has-media.has-text .side-content {
+    width: 31.42857%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+
+#block-platform-homequeue-maincontent .field-name-field-header {
+  font: 190%/110% Georgia, Times, serif;
+  margin-top: 0;
+}
+#block-platform-homequeue-maincontent .field-name-field-header p {
+  margin-top: 0;
+}
+#block-platform-homequeue-maincontent .node {
+  margin-bottom: 20px;
+}
+
+#block-platform-homequeue-leftsidebar .field-name-field-header,
+#block-platform-homequeue-rightsidebar .field-name-field-header {
+  color: #ba0808;
+  font-size: 128%;
+  font-weight: bold;
+  margin-top: 0;
+}
+#block-platform-homequeue-leftsidebar .field-name-field-header p,
+#block-platform-homequeue-rightsidebar .field-name-field-header p {
+  margin-top: 0;
+}
+#block-platform-homequeue-leftsidebar .node,
+#block-platform-homequeue-rightsidebar .node {
+  background-color: #f9f7ed;
+  border-bottom: 1px solid #bcbcbc;
+  border-top: 1px solid #bcbcbc;
+  margin-bottom: 20px;
+  padding: 5px 15px;
+}
+#block-platform-homequeue-leftsidebar .node p, #block-platform-homequeue-leftsidebar .node ol, #block-platform-homequeue-leftsidebar .node ul, #block-platform-homequeue-leftsidebar .node table, #block-platform-homequeue-leftsidebar .node .video-container,
+#block-platform-homequeue-rightsidebar .node p,
+#block-platform-homequeue-rightsidebar .node ol,
+#block-platform-homequeue-rightsidebar .node ul,
+#block-platform-homequeue-rightsidebar .node table,
+#block-platform-homequeue-rightsidebar .node .video-container {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
