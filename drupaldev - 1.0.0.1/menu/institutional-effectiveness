@@ -1,0 +1,40 @@
+<div id="block-menu-block-2" class="block block-menu-block">
+	<h2><a href="institutional-effectiveness.html" class="active-trail active">Institutional Effectiveness</a></h2>  
+	<div class="content">
+		<div class="menu-block-wrapper menu-block-2 menu-name-main-menu parent-mlid-0 menu-level-2 center">
+			<ul class="menu">
+				<li class="first leaf menu-mlid-512">
+					<a href="college-scorecard.html">College Scorecard</a>
+				</li>
+				<li class="leaf menu-mlid-504">
+					<a href="rankings.html">Rankings</a>
+				</li>
+				<li class="collapsed menu-mlid-489">
+					<a href="surveys.html">Surveys</a>
+					<ul class="menu">
+						<li class="first leaf menu-mlid-543">
+							<a href="faculty-survey.html">Faculty Survey</a>
+						</li>
+						<li class="collapsed menu-mlid-503">
+							<a href="undergraduate-student-surveys.html">Undergraduate Student Surveys</a>
+						</li>
+						<li class="leaf menu-mlid-506">
+							<a href="graduate-student-surveys.html">Graduate Student Surveys</a>
+						</li>
+						<li class="last leaf menu-mlid-513">
+							<a href="faculty-surveys.html">Faculty Surveys</a>
+						</li>
+					</ul>
+				</li>
+				<li class="last collapsed menu-mlid-497 verylast">
+					<a href="university-dashboard-indicators.html">University Dashboard Indicators</a>
+					<ul class="menu">
+						<li class="first last leaf menu-mlid-511 verylast">
+							<a href="university-dashboard-indicators-applications.html">Applications</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+  </div>
+</div>
