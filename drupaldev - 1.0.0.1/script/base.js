@@ -25,8 +25,11 @@
 		
 		
 		activeMenu.parent('li').parent('ul').parent('li').addClass('active-trail').addClass('active').removeClass('collapsed').addClass('expanded');
-		activeMenu.parent('li').parent('ul').parent('li').find('a').first().addClass('active-trail');;
-		//activeMenu.parent().parent().parent().find('a').first().addClass('active-trail');
+		activeMenu.parent('li').parent('ul').parent('li').find('a').first().addClass('active-trail');
+	    
+	    	activeMenu.parent('li').parent('ul').parent('li').parent('ul').parent('li').addClass('active-trail').addClass('active').removeClass('collapsed').addClass('expanded');
+		activeMenu.parent('li').parent('ul').parent('li').parent('ul').parent('li').find('a').first().addClass('active-trail');
+		
 		
 		
 		menuControl.find('.expanded').find('.menu').show();		
