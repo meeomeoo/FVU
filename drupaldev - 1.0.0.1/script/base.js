@@ -16,7 +16,7 @@
 		menuControl.find('.expanded').removeClass('expanded').addClass('collapsed');
 		
 		// active current menu
-		var activeMenu = menuControl.find("a[href$='"+ lastPathSegment +"']");
+		var activeMenu = menuControl.find("a[href='"+ lastPathSegment +"']");
 		activeMenu.addClass('active-trail').addClass('active');
 		
 		// show parent and active parent if active menu is a sub
@@ -38,7 +38,7 @@
 		menuControl.find('a').removeClass('active-trail');
 		
 		// active current menu
-		var activeMenu = menuControl.find("a[href$='"+ menu +".html']");
+		var activeMenu = menuControl.find("a[href='"+ menu +".html']");
 		activeMenu.addClass('active-trail');
     };
  };
