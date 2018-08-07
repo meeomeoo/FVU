@@ -17,6 +17,20 @@
 						</li>
 						<li class="collapsed menu-mlid-503">
 							<a href="undergraduate-student-surveys.html">Undergraduate Student Surveys</a>
+							<ul class="menu">
+								<li class="first leaf menu-mlid-501">
+									<a href="seru-student-experience-research-university-research-project.html">SERU - The Student Experience in the Research University  Research Project</a>
+								</li>
+								<li class="leaf menu-mlid-500">
+									<a href="nsse-national-survey-student-engagement.html">NSSE - National Survey on Student Engagement</a>
+								</li>
+								<li class="leaf menu-mlid-502">
+									<a href="cirp-cooperative-institutional-research-program-first-year-student-survey.html">CIPR - Cooperative Institutional Research Program - First Year Student Survey</a>
+								</li>
+								<li class="last leaf menu-mlid-505">
+									<a href="student-satisfaction-survey-campus-residents.html">Student Satisfaction Survey for On-Campus Residents</a>
+								</li>
+							</ul>
 						</li>
 						<li class="leaf menu-mlid-506">
 							<a href="graduate-student-surveys.html">Graduate Student Surveys</a>
